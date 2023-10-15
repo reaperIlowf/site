@@ -406,16 +406,29 @@ img{
 	}
 }
 @media (max-width: 960px){
+	.carousel {
+		height: 439px;
+	}
 	.carousel-inner img{
 		height: 384px;
 	}
 }
 @media (max-width: 854px){
+	.carousel {
+		height: 396px; 
+	}
 	.carousel-inner img{
 		height: 341px;
 	}
 }
-
+@media (max-width: 640px){
+	.carousel {
+		height: 311px; 
+	}
+	.carousel-inner img{
+		height: 256px;
+	}
+}
 
 .da-slider{
 	width: 100%;
