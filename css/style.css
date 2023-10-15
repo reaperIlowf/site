@@ -74,7 +74,7 @@ body {
 
 .carousel{
 	position: relative;
-	max-width: 100%;
+	padding-top: 55px;
 	margin: auto;
 }
 
@@ -346,6 +346,76 @@ img{
 		font-size: 12em;
 	}
 }
+
+@media (min-width: 2103px){
+	.carousel{
+		height: 896px;
+	}
+	.carousel-inner img{
+		height: 841px;
+	}
+}
+@media (max-width: 2103px){
+	.carousel{
+		height: 896px;
+	}
+	.carousel-inner img{
+		height: 841px;
+	}
+}
+
+@media (max-width: 1920px){
+	.carousel{
+		height: 823px;
+	}
+	.carousel-inner img{
+		height: 768px;
+	}
+}
+@media (max-width: 1600px){
+	.carousel{
+		height: 695px;
+	}
+	.carousel-inner img{
+		height: 640px;
+	}
+}
+@media (max-width: 1366px){
+	.carousel{
+		height: 601px;
+	}
+	.carousel-inner img{
+		height: 546px;
+	}
+}
+@media (max-width: 1280px){
+	.carousel{
+		height: 567px;
+	}
+	.carousel-inner img{
+		height: 512px;
+	}
+}
+
+@media (max-width: 1024px){
+	.carousel {
+		height: 464px;
+	}
+	.carousel-inner img{
+		height: 409px;
+	}
+}
+@media (max-width: 960px){
+	.carousel-inner img{
+		height: 384px;
+	}
+}
+@media (max-width: 854px){
+	.carousel-inner img{
+		height: 341px;
+	}
+}
+
 
 .da-slider{
 	width: 100%;
