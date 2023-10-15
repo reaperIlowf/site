@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<title>SGA Clube de proteção veicular</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link href="css/style.css" rel="stylesheet">
+	<script defer src="js/script.js"></script>
+</head>
+<body>
+<div class="corpo">
+<video controls autoplay="autoplay" muted loop="true" class="video"><source src="img/videoBG.mp4" type="video/mp4" ></video>
+<div class="conteudo">
+	<div class="container-fluid sticky-top" id="navegacao">
+		<nav class="navbar navbar-expand-lg">
+		  <div class="container-fluid">
+			<a class="navbar-brand" id="titulo" href="#carrousel"><b>SGA</b>Clube</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#torrada" aria-controls="torrada" aria-expanded="true" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="torrada">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" id="itemnav" href="#carrousel">
+					Inicio
+				  </a>
+				</li>
+				  <li class="nav-item">
+					<a class="nav-link" id="itemnav" href="#page">
+					  Sobre Nós
+					</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" id="itemnav" href="#cartao">
+					Serviços
+				  </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="itemnav" href="#page2">
+					  Beneficios
+					</a>
+				  </li>
+				<!--<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Menu
+				  </a>
+				  <ul class="dropdown-menu" >
+					<li><a class="dropdown-item" id="itemnav" href="#">Item 1</a></li>
+					<li><a class="dropdown-item" id="itemnav" href="#">item 2</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" id="itemnav" href="#">Item 3</a></li>
+				  </ul>
+				</li>-->
+				<li class="nav-item">
+				  <a class="nav-link" id="itemnav" href="#contato">
+					Contato
+				  </a>
+				</li> 
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	</div>
+	
+<!--	<section class="hidden">
+		<div class="slider-wrapper">
+			<div class="slider">
+				<img id="slide-1" src="img/slide1.jpg" alt="...">
+				<img id="slide-2" src="img/slide2.jpg" alt="...">
+				<img id="slide-3" src="img/slide3.jpeg" alt="...">
+			</div>
+			<div class="slider-nav">
+			<!--	<a href="#slide-1"></a>
+				<a href="#slide-2"></a>
+				<a href="#slide-3"></a>
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+			</div>
+			<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+			</div>
+			<div class="navigation-manual">
+				<label for="#radio1" class="manual-btn"></label>
+				<label for="#radio2" class="manual-btn"></label>
+				<label for="#radio3" class="manual-btn"></label>
+			</div>
+		</div>
+	</section> -->
+
+	 <div id="carrousel" class="carousel slide carousel-fade hidden"  data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+	  <div class="carousel-inner">
+		<div class="carousel-item active" data-bs-interval="6000">
+		  <img src="img/banner.jpg" class="d-block w-100" alt="...">
+		</div>
+		</div>
+		<div class="carousel-item" data-bs-interval="6000">
+		  <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+		</div>
+		</div>
+		<div class="carousel-item" data-bs-interval="6000">
+		  <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+		</div>
+		</div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carrousel" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carrousel" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+
+	<div class="container-fluid text-center hidden" id="page">
+		<div>
+			<strong>Sobre Nós</strong>
+		</div>
+		<br>
+		<br>
+		<div class="row justify-content-center g-4">
+			<div class="col-md">
+				<div class="card h-100 w-75" id="cardpage">
+				  <div class="card-body">
+					<h5 class="card-title">Por quê escolher</h5>
+					<p class="card-text">A SGA oferece uma cobertura abrangente que pode proteger financeiramente você e seu veículo em caso de acidentes, colisões, incêndios, roubos, furtos e outros eventos imprevistos. Isso significa que você não precisa arcar sozinho com os altos custos de reparo ou substituição da sua moto. Em muitos lugares, a lei exige que os proprietários de veículos, incluindo motos, tenham um seguro de responsabilidade civil. Não cumprir essa exigência pode resultar em multas e penalidades legais. A SGA pode ajudá-lo a cumprir suas obrigações legais. Você não precisa se preocupar com os altos custos de reparo ou com as consequências financeiras devastadoras de um acidente ou roubo. A SGA oferece serviços de assistência 24 horas, como guincho com alcance de até 400 km, o que pode ser extremamente útil em situações de emergência na estrada, independentemente de onde você esteja. Em resumo, ter sua moto assegurada com a SGA é uma medida essencial para proteger seus investimentos, cumprir suas obrigações legais e garantir sua segurança financeira e pessoal em situações de imprevistos. A SGA oferece uma ampla gama de benefícios que começam a partir de <strong>R$:39,90</strong> e contribuem para sua tranquilidade e segurança nas estradas.</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col">
+				<video class="w-50" width="auto" height="auto" controls loop="true" autoplay="autoplay" muted>
+				  <source src="vid/v1.mp4" type="video/mp4">
+				  <source src="movie.ogg" type="video/ogg">
+				  Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="container-fluid text-center hidden" id="cartao">
+		<div class="row row-cols-1 row-cols-md-3 g-10">
+			<div class="col">
+			<div class="card shadow w-75" id="scalefadecard">
+			  <img src="img/tracker.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Carros</h5>
+				<p class="card-text">Cotação de carros</p>
+				<a href="https://tabelafipecarros.com.br/carros/" target="_blank" class="btn btn-primary">Clique Aqui</a>
+			  </div>
+			</div>
+			</div>
+			<div class="col">
+			<div class="card shadow w-75" id="scalefadecard">
+			  <img src="img/mt03.png" class="card-img-top hover-zoom" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Motos</h5>
+				<p class="card-text">Cotação de motos</p>
+				<a href="https://tabelafipecarros.com.br/motos/" target="_blank" class="btn btn-primary">Clique Aqui</a>
+			  </div>
+			</div>
+			</div>
+			<div class="col">
+			<div class="card shadow w-75" id="scalefadecard">
+			  <img src="img/05.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Rastreamento de frota</h5>
+				<p class="card-text">Atendimento para Frotas e mais</p>
+				<a href="https://Wa.me/5584996528769" target="_blank" class="btn btn-primary">Clique Aqui</a>
+			  </div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid text-center hidden" id="page2">
+		<div class="fs-1">
+			<strong>BENEFICIOS</strong> 
+			
+		</div>
+		<br>
+		<br>
+		<div class="row justify-content-md-center row-cols-1 row-cols-xxl-2 g-4">
+			<div class="col">
+				<div class="fs-2">
+				<img src="img/sga.png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<div class="col">
+			<div class="row row-cols-1 row-cols-xxl-3 g-4">
+				<div class="col">
+				<div class="card" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c"class="card-title">Assistência em Emergências</h5>
+					<p class="card-text"><strong> O serviço de guincho 24 horas com um alcance de 400 quilômetros garante que, em caso de problemas mecânicos, pane seca, bateria fraca ou acidentes, o veículo possa ser rebocado para um local seguro ou para uma oficina, independentemente da hora do dia ou da noite.</strong></p>
+					</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c" class="card-title">Cobertura contra Colisões</h5>
+					<p class="card-text text-justify"><strong>A cobertura contra colisões ajuda a cobrir os custos de reparo ou substituição do seu veículo se ele for danificado em um acidente. Isso inclui colisões com outros carros, postes, barreiras, árvores e outros objetos.</strong></p>
+				  </div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c" class="card-title">Rastreamento 24h</h5>
+					<p class="card-text"><strong>A SGA te protege 24h pelo aplicativo, onde você pode monitorar o seu veículo o tempo inteiro, pode desligar com apenas um dedo e previnir o roubo do seu bem.</strong></p>
+				  </div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c" class="card-title">Proteção contra incêndios</h5>
+					<p class="card-text"><strong>A SGA conta tambem com proteção contra incêndios. Mais uma das muitas maneiras da SGA proteger você e o seu patrimônio</strong></p>
+				  </div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card col" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c" class="card-title">Equipamento de ponta</h5>
+					<p class="card-text"><strong>Além de contar com Rastreamento 24h. A SGA tambem conta com os melhores rastreadores do mercado que por sua vez, via aplicativo podem desligar seu veículo instantaneamente.</strong></p>
+				  </div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card col" id="cardtexto">
+				  <div class="card-body">
+					<h5 id="c" class="card-title">Atendimento</h5>
+					<p class="card-text"><strong>A SGA conta com um atendimento de primeira qualidade, um dos melhores do brasil. Com profissionais dedicados e muito bem qualificados. Para que todos os associados sintam-se muito bem atendidos.</strong></p>
+				  </div>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="hidden" id="contato">
+	<div class="container">
+	<div class="heading text-center">
+								<!-- Heading -->
+								<h2>Faça uma visita</h2> 
+								<p>Venha até o nosso escritório e faça uma cotação com nossos analistas.</p>
+							</div>
+						<div class="row">
+						<div class="col-sm-8">
+								<div id="mapWrapper" class="mb30" style="position: relative; margin-bottom:20px; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.546962993681!2d-37.34444878863811!3d-5.176314652231329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ba06d66cb3184b%3A0x8996f4ca3ad4ce6!2sR.%20Seis%20de%20Janeiro%2C%201178%20-%20Bom%20Jardim%2C%20Mossor%C3%B3%20-%20RN%2C%2059618-770!5e0!3m2!1spt-BR!2sbr!4v1693830477725!5m2!1spt-BR!2sbr" width="1200" height="400" frameborder="0" style="border:0"></iframe>
+								</div><br/>
+							</div>
+						<div class="col-sm-4">
+						<form id="formula"> 
+							<!-- <input type="hidden" name="recipient" value="andersonfelipepaz@outlook.com">  Pode ser qualquer endereço de email
+							 <input type="hidden" name="redirect" value="index.html">  Após o envio, o usuário será redirecionado para a página configurada aqui
+							 <input type="hidden" name="subject" value="teste de assunto">   Assunto da mensagem
+							 <input type="hidden" name="email" value="andersonfelipepaz@outlook.com">   Deve ser uma conta de email ativa em seu domínio -->
+							 
+							 <p> 
+							 Nome:<br /> 
+							 <input type="text" size="30" name="nome"> 
+							 </p>   
+							 
+							 <p>
+							 E-mail:<br /> 
+							 <input type="text" size="30" name="replyto"> 
+							 </p>   
+							 
+							 <p> 
+							 Comentários:<br /> 
+							 <input type="text" size="35" name="Comentarios"> 
+							 </p>   
+							 
+							 <p> 
+							 <input class="btn btn-primary" type="submit" name="BTEnvia" value="Enviar"> </p> 
+					</form>
+					</div>
+	
+				</div>
+	</div>
+	</div>
+			
+	
+	<footer class="rodape hidden">
+		<div class="container" id="cont">
+		<div class="row justify-content-around">
+			<div class="col-5">
+				<p class="fs-5 my-auto" style="color: #e05a06;">SGA Protegido</p>
+				<p class="text-justify fs-6">SGA Clube de Proteção Veicular é uma empresa dedicada à proteção e assistencia de veículos. Com mais de um ano de experiencia no mercado, temos crescido exponencialmente graças à confiança dos nossos clientes.</p>
+				<div class="row">
+					<a class="ic col-1" href="https://Wa.me/5584996528769" target="_blank"><i class="bi bi-whatsapp"></i></a>
+					<a class="ic col-1" href="https://www.instagram.com/sgaclube_bsv/" target="_blank"><i class="bi bi-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-7">
+				<p class="fs-5 my-auto" style="color: white;">Informações de Contato</p>
+				<p>Entre em Contato conosco e faça já seu orçamento.</p>
+				<ul>
+					<p class="my-auto"><i class="bi bi-telephone"></i>	84 9 96-8769</p>
+					<p class="my-auto" "><i class="bi bi-envelope"></i>	suporte@sgaclube.com.br</p>
+					<p class="my-auto"><i class="bi bi-flag"></i>	Seis de Janeiro, 1460 - Bom Jardim, Mossoró - RN</p>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div id="copy">
+		<div class="container">
+		<div class="row">
+			<div class="col">
+				<p>Copyright 2023 Todos os direitos reservados SGA ©</p>
+			</div>
+		</div>
+		</div>
+		</div>
+	</footer>
+</div>
+</div>
+</body>
+</html>
